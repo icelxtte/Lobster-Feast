@@ -4,7 +4,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: #acbcc9;
+    background-image: radial-gradient(#482f2f 0.5px, #acbcc9 0.5px);
+    background-size: 10px 10px;
+    cursor: url('lobster.svg'), auto;
 }
+
+.top-right-icon {
+    position: absolute;
+    top: 10px;  /* Distance from the top of the page */
+    right: 10px;  /* Distance from the right of the page */
+    width: 40px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer; /* Optional: change cursor on hover */
+}
+
+
 
 /* Header Styles */
 header {
@@ -187,4 +201,25 @@ section h3 {
     margin-bottom: 15px;
     color: #35424a;
     font-size: 1.5rem;
+}
+
+.my-github-icon{
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.my-linkedin-icon{
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 10px;  /* Distance from the top of the page */
+    right: 60px;  /* Distance from the right of the page */
+    width: 40px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer; /* Optional: change cursor on hover */ 
 }
